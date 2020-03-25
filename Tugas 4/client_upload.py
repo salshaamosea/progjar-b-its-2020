@@ -21,5 +21,6 @@ try:
     sock.send(param)
 
 finally:
-    print("closing")
+    print("success uploading file")
+    print("closing upload client")
     sock.close()
