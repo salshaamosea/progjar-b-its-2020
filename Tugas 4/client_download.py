@@ -22,5 +22,6 @@ try:
     isi_file.close()
 
 finally:
+    print("success downloading file")
     print("closing download client")
     sock.close()
