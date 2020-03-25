@@ -7,11 +7,11 @@ Setelah menjalankan file_server.py, jalankan client yang diinginkan.
 ### Download Client
 Agar dapat mendownload file, masukkan nama file yang diinginkan. Kemudian program akan mengirimkan parameter dengan format
 ```
-download + nama_file
+download [spasi] nama_file
 ```
 ke file_server. File server kemudian akan mengirimkan filenya dan kemudian diterima oleh client. Respon yang diterima dapat dilihat pada gambar dibawah.
 
-[Download Client](https://raw.githubusercontent.com/salshaamosea/progjar-b-its-2020/master/Tugas%204/screenshots/download.PNG)
+![Download Client](screenshots/download.PNG?raw=true)
 
 ```
 import sys
@@ -44,6 +44,13 @@ finally:
 ```
 
 ### Upload Client
+Agar dapat mengupload file, masukkan nama file yang ingin di upload. Kemudian program akan mengirimkan parameter dengan format
+```
+upload [spasi] nama_file [spasi] isi_file
+```
+ke file_server. File server kemudian akan menerima data yang telah dikirim oleh client dan menyimpannya. Respon yang diterima dapat dilihat pada gambar dibawah.
+
+![Upload Client](screenshots/upload.PNG?raw=true)
 ```
 import sys
 import socket
@@ -73,6 +80,13 @@ finally:
 ```
 
 ### List Client
+Untuk melihat file apa saja yang terdapat di dalam folder 'folder', jalankan client_list.py. Program akan mengirimkan parameter dengan format
+```
+list
+```
+ke file_server. File server kemudian akan mengirimkan data berupa JSON ke client. Respon dari client list adalah seperti gambar dibawah
+
+![Upload Client](screenshots/list.PNG?raw=true)
 ```
 import sys
 import socket
