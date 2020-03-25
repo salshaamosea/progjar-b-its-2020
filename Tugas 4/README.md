@@ -1,13 +1,17 @@
 # Tugas 4
 
-One Paragraph of project description goes here
-
 ## Cara Kerja
 
 Setelah menjalankan file_server.py, jalankan client yang diinginkan.
 
 ### Download Client
-Agar dapat mendownload file, masukkan nama file yang diinginkan.
+Agar dapat mendownload file, masukkan nama file yang diinginkan. Kemudian program akan mengirimkan parameter dengan format
+```
+download + nama_file
+```
+ke file_server. File server kemudian akan mengirimkan filenya dan kemudian diterima oleh client. Respon yang diterima dapat dilihat pada gambar dibawah.
+
+[Download Client](https://raw.githubusercontent.com/salshaamosea/progjar-b-its-2020/master/Tugas%204/screenshots/download.PNG)
 
 ```
 import sys
