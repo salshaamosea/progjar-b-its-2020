@@ -1,3 +1,2 @@
-Nama : Salsha Armenia Amosea
-NRP : 05111740000142
-Kelas : Progjar - B
+Nama : Salsha Armenia Amosea | NRP : 05111740000142
+
